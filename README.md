@@ -32,16 +32,14 @@ User sees a beautifully colorized version with a download option
 
 Input Images
 
+<img width="907" height="685" alt="image" src="https://github.com/user-attachments/assets/a79b6829-8e33-4df8-a436-6d4bc1e5f22c" />
 
-![istockphoto-607913622-612x612](https://github.com/user-attachments/assets/47c81624-f346-47f5-a8ae-a215ba6706e0)
-![images](https://github.com/user-attachments/assets/4436d8c2-1ffc-4d13-8bdd-ce6a666e2c6c)
 
 
 
 🖼️ Screenshots
-<img width="1091" height="520" alt="Output(User Interface)" src="https://github.com/user-attachments/assets/71e98c96-0751-418e-bd15-c2e33c5edce0" />
-<img width="1304" height="673" alt="Output(Colorization)" src="https://github.com/user-attachments/assets/45021749-60fd-48e2-a864-bf690ea1d687" />
-<img width="1116" height="605" alt="Output(Colorization2)" src="https://github.com/user-attachments/assets/0f9618d5-229d-4cc2-9da8-9bc1f1e0b432" />
+<img width="1262" height="625" alt="image" src="https://github.com/user-attachments/assets/5ac7a8b7-09cb-45a8-a6ae-c9456fea7c98" />
+<img width="1102" height="655" alt="image" src="https://github.com/user-attachments/assets/391cafe7-ff8d-4590-97c3-ce7ebb4d7fc4" />
 
 Project URL:  https://ai-image-colorizer-kshr.onrender.com
 
