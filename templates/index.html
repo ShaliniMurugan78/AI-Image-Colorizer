@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Colorizer</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+
+<body class="dark">
+
+<div class="container">
+
+    <h1 class="title">AI Image Colorizer</h1>
+    <p class="subtitle">Restore colors. Revive memories. 🌈</p>
+
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+
+        <div class="upload-area">
+            <input type="file" name="image" accept="image/*" required>
+        </div>
+
+        <select name="filter" class="filter-select">
+            <option value="none">No Filter</option>
+            <option value="warm">Warm</option>
+            <option value="cool">Cool</option>
+            <option value="vintage">Vintage</option>
+            <option value="hdr">HDR</option>
+        </select>
+
+        <button class="btn">✨ Colorize</button>
+    </form>
+
+    {% if output_image %}
+    <div class="result-section">
+        <h2 class="result-title">Colorized Image</h2>
+
+        <div class="single-img-wrapper">
+            <img src="{{ url_for('static', filename='uploads/' + output_image) }}" class="final-img">
+        </div>
+
+        <a href="{{ url_for('static', filename='uploads/' + output_image) }}"
+           class="download-btn" download>
+            ⬇ Download Colorized Image
+        </a>
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
