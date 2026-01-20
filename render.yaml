@@ -1,7 +1,7 @@
 services:
   - type: web
     name: ai-image-colorizer
-    env: python
-    pythonVersion: 3.9.18
+    runtime: python
+    pythonVersion: "3.9.18"
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
